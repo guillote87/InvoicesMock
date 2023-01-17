@@ -1,0 +1,13 @@
+<mvc:View controllerName="gq4dev.html5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content />
+        <Panel>
+        <List id="list" items="{/Invoices}">
+<StandardListItem title="{ProductName}"/>
+
+        </List>
+        </Panel>
+    </Page>
+</mvc:View>
